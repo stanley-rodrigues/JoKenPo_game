@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    background: url("https://img.freepik.com/fotos-gratis/figura-triangular-geometrica-fantastica-em-uma-luz-de-laser-neon-otima-para-fundos_181624-11068.jpg?w=826&t=st=1689558794~exp=1689559394~hmac=a3524a35b0bcc6501f977988d93410f4eb806fb0d976b5233b89f7d897282acd");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    margin-top: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 80px;
+    width: 95%;
+    column-gap: 60px;
+    margin-top: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+
+}
+
+span {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+
+}
+
+.begin-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 95%;
+    column-gap: 60px;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #bb7cc0;
+}
+
+#paper {
+    background-color: #5d4688;
+}
+
+#scissors {
+    background-color: #2c1e44;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.your-score span {
+    color: rgba(77, 128, 216)
+}
+
+.machine-score span {
+    color: rgb(224, 71, 15);
+}
+
+.result {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+
+.human-image,
+.machine-image {
+    height: 100px;
+    border-radius: 50%;
+}

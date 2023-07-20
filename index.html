@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <title>Jokenpo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JoKenPô</h1>
+        <br>
+        <div class="paragrafo">
+            <b><span id="human-score">0</span></b>
+            <p class="your-score">Sua Pontuação</p>
+            <b><span id="machine-score">0</span></b>
+            <p class="machine-score">Pontuação da Alexa</p>
+        </div>
+        <div class="image">
+            <img class="human-image">
+            <p class="begin-message"> FAÇA SUA ESCOLHA E VENÇA A ALEXA</p>
+            <p class="result"></p>
+            <img class="machine-image">
+        </div>
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A</button>
+            <button id="paper" onclick="playHuman('paper')">&#x1F590</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270C</button>
+        </div>
+        <br>
+</body>
+
+</html>
